@@ -2,7 +2,6 @@
 
 #Importing Essentials
 from django.conf.urls import url
-from UserData import views
 
 #Forming URLs
 urlpatterns = [

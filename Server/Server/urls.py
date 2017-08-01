@@ -17,6 +17,7 @@ from django.conf.urls import include, url
 from django.contrib import admin
 
 urlpatterns = [
-    url(r'^', include('Session.urls')),
+    url(r'', include('user_sessions.urls', 'user_sessions')),
+    # url(r'^session/', include('Session.urls')),
     url(r'^admin/', admin.site.urls),
 ]
